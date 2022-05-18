@@ -415,7 +415,6 @@ CMakeFiles/learn_eigen.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/Dense \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/Core \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -551,6 +550,7 @@ CMakeFiles/learn_eigen.dir/main.cpp.o: \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Core/StlIterators.h \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/Dense \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/LU \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/misc/Kernel.h \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/misc/Image.h \
@@ -611,4 +611,100 @@ CMakeFiles/learn_eigen.dir/main.cpp.o: \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
-  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/IterativeLinearSolvers \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/SparseCore \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseUnaryOps.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseBinaryOps.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseUnaryOps.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseBinaryOps.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/../plugins/BlockMethods.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/OrderingMethods \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/IterativeSolvers \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/../../Eigen/Sparse \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/SparseCholesky \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/SparseLU \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/SparseQR \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/../../Eigen/Jacobi \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/../../Eigen/Householder \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/../../Eigen/src/Core/util/DisableStupidWarnings.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IterationController.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/../../../../Eigen/src/Core/util/NonMPL2.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/../../../../Eigen/Core \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/GMRES.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/DGMRES.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/../../../../Eigen/Eigenvalues \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/MINRES.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IDRS.h \
+  /opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3/unsupported/Eigen/../../Eigen/src/Core/util/ReenableStupidWarnings.h
