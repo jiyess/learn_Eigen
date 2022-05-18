@@ -5,15 +5,10 @@ using namespace Eigen;
 
 int main( int argc, char** argv )
 {
-    Eigen::Matrix4f m;
-    m << 1, 2, 3, 4,
-            5, 6, 7, 8,
-            9, 10,11,12,
-            13,14,15,16;
-
-    
-    cout << "m.leftCols(2) =" << endl << m.leftCols(2) << endl << endl;
-    cout << "m.bottomRows<2>() =" << endl << m.bottomRows<2>() << endl << endl;
-    m.topLeftCorner(1,3) = m.bottomRightCorner(3,1).transpose();
-    cout << "After assignment, m = " << endl << m << endl;
+    Eigen::ArrayXf v(6);
+    v << 1, 2, 3, 4, 5, 6;
+    cout << "v.head(3) =" << endl << v.head(3) << endl << endl;
+    cout << "v.tail<3>() = " << endl << v.tail<3>() << endl << endl;
+    v.segment(1, 4) *= 2;
+    cout << "after 'v.segment(1,4) *= 2', v =" << endl << v << endl;
 }
