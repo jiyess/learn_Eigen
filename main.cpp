@@ -5,10 +5,23 @@ using namespace Eigen;
 
 int main( int argc, char** argv )
 {
-    Eigen::ArrayXf v(6);
-    v << 1, 2, 3, 4, 5, 6;
-    cout << "v.head(3) =" << endl << v.head(3) << endl << endl;
-    cout << "v.tail<3>() = " << endl << v.tail<3>() << endl << endl;
-    v.segment(1, 4) *= 2;
-    cout << "after 'v.segment(1,4) *= 2', v =" << endl << v << endl;
+    const int size = 6;
+    MatrixXd mat1(size, size);
+    mat1.topLeftCorner(size / 2, size / 2) = MatrixXd::Zero(size / 2, size / 2);
+    mat1.topRightCorner(size / 2, size / 2) = MatrixXd::Identity(size / 2, size / 2);
+    mat1.bottomLeftCorner(size / 2, size / 2) = MatrixXd::Identity(size / 2, size / 2);
+    mat1.bottomRightCorner(size / 2, size / 2) = MatrixXd::Zero(size / 2, size / 2);
+    std::cout << mat1 << std::endl << std::endl;
+
+    MatrixXd mat2(size, size);
+    mat2.topLeftCorner(size / 2, size / 2).setZero();
+    mat2.topRightCorner(size / 2, size / 2).setIdentity();
+    mat2.bottomLeftCorner(size / 2, size / 2).setIdentity();
+    mat2.bottomRightCorner(size / 2, size / 2).setZero();
+    std::cout << mat2 << std::endl << std::endl;
+
+    MatrixXd mat3(size, size);
+    mat3 << MatrixXd::Zero(size / 2, size / 2), MatrixXd::Identity(size / 2, size / 2),
+            MatrixXd::Identity(size / 2, size / 2), MatrixXd::Zero(size / 2, size / 2);
+    std::cout << mat3 << std::endl;
 }
