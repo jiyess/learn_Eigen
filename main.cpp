@@ -104,6 +104,7 @@ int main()
         bicg.compute(A);
         x = bicg.solve(b);
         std::cout << "BiCGSTAB: #iterations: " << bicg.iterations() << ", estimated error: " << bicg.error() << std::endl;
+//        std::cout << "(" << A.rows() << "," << A.cols() << ")" << std::endl;
     }
 
     {
